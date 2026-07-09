@@ -1,0 +1,4084 @@
+
+============================================================
+SCAN START  2026-03-13 06:40:02
+============================================================
+  Host CPU : 0.0%  (cores: 2)
+  Memory   : 0.03 / 9.0 GB  (0.3%)
+  Disk     : 0.0 / 9.83 GB  (0.0%)
+  Processes: 4
+
+[2026-03-13 06:40:02] ALERT  level=RISKY  score=7
+  PID      : 1
+  Name     : process_api
+  User     : root
+  Path     : /process_api
+  CPU      : 0.0%  MEM: 0.1% (8.66 MB)
+  Started  : 2026-03-13 06:33:56
+  Alerts   : Unexpected root process: process_api, External connection to 10.4.31.77:45270
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+SCAN END    2026-03-13 06:40:02
+  Scanned=4  Low=3  Suspicious=0  Risky=1
+============================================================
+
+
+============================================================
+SCAN START  2026-04-23 09:29:23
+============================================================
+  Host CPU : 5.0%  (cores: 6)
+  Memory   : 1.64 / 5.04 GB  (32.4%)
+  Disk     : 23.01 / 41.69 GB  (58.2%)
+  Processes: 381
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 4
+  Name     : kworker/R-rcu_gp
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-rcu_gp, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 6
+  Name     : kworker/R-kvfree_rcu_reclaim
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-kvfree_rcu_reclaim, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 7
+  Name     : kworker/R-slub_flushwq
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-slub_flushwq, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 8
+  Name     : kworker/R-netns
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-netns, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 10
+  Name     : kworker/0:0H-events_highpri
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/0:0h-events_highpri, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 13
+  Name     : kworker/R-mm_percpu_wq
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-mm_percpu_wq, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 26
+  Name     : kworker/1:0H-events_highpri
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/1:0h-events_highpri, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 32
+  Name     : kworker/2:0H-events_highpri
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/2:0h-events_highpri, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 38
+  Name     : kworker/3:0H-events_highpri
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/3:0h-events_highpri, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 44
+  Name     : kworker/4:0H-kblockd
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/4:0h-kblockd, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 50
+  Name     : kworker/5:0H-events_highpri
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/5:0h-events_highpri, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 60
+  Name     : kworker/R-inet_frag_wq
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-inet_frag_wq, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 69
+  Name     : kworker/R-writeback
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-writeback, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 73
+  Name     : kworker/R-kblockd
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-kblockd, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 74
+  Name     : kworker/R-blkcg_punt_bio
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-blkcg_punt_bio, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 75
+  Name     : kworker/R-kintegrityd
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-kintegrityd, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 79
+  Name     : kworker/R-tpm_dev_wq
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-tpm_dev_wq, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 80
+  Name     : kworker/R-edac-poller
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-edac-poller, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 81
+  Name     : kworker/R-devfreq_wq
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-devfreq_wq, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 82
+  Name     : kworker/R-quota_events_unbound
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-quota_events_unbound, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 83
+  Name     : kworker/0:1H-kblockd
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:27
+  Alerts   : Unexpected root process: kworker/0:1h-kblockd, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 88
+  Name     : kworker/R-kthrotld
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:27
+  Alerts   : Unexpected root process: kworker/r-kthrotld, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 122
+  Name     : kworker/R-acpi_thermal_pm
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:27
+  Alerts   : Unexpected root process: kworker/r-acpi_thermal_pm, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 124
+  Name     : kworker/R-mld
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:27
+  Alerts   : Unexpected root process: kworker/r-mld, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 125
+  Name     : kworker/R-ipv6_addrconf
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:27
+  Alerts   : Unexpected root process: kworker/r-ipv6_addrconf, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 127
+  Name     : kworker/R-kstrp
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:27
+  Alerts   : Unexpected root process: kworker/r-kstrp, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 136
+  Name     : kworker/u515:0
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:28
+  Alerts   : Unexpected root process: kworker/u515:0, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 137
+  Name     : kworker/u516:0-ttm
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:28
+  Alerts   : Unexpected root process: kworker/u516:0-ttm, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 138
+  Name     : kworker/u517:0-ttm
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:28
+  Alerts   : Unexpected root process: kworker/u517:0-ttm, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 201
+  Name     : kworker/1:1H-kblockd
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:28
+  Alerts   : Unexpected root process: kworker/1:1h-kblockd, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 233
+  Name     : kworker/5:1H-kblockd
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/5:1h-kblockd, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 235
+  Name     : kworker/2:1H-kblockd
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/2:1h-kblockd, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 245
+  Name     : kworker/4:1H-kblockd
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/4:1h-kblockd, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 267
+  Name     : kworker/3:1H-kblockd
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/3:1h-kblockd, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 269
+  Name     : kworker/R-ata_sff
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-ata_sff, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 270
+  Name     : kworker/R-mpt_poll_0
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-mpt_poll_0, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 271
+  Name     : kworker/R-mpt/0
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-mpt/0, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 273
+  Name     : kworker/R-scsi_tmf_0
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_0, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 275
+  Name     : kworker/R-scsi_tmf_1
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_1, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 293
+  Name     : kworker/R-ttm
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-ttm, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 295
+  Name     : kworker/R-scsi_tmf_2
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_2, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 297
+  Name     : kworker/R-scsi_tmf_3
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_3, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 299
+  Name     : kworker/R-scsi_tmf_4
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_4, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 301
+  Name     : kworker/R-scsi_tmf_5
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_5, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 303
+  Name     : kworker/R-scsi_tmf_6
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_6, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 305
+  Name     : kworker/R-scsi_tmf_7
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_7, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 307
+  Name     : kworker/R-scsi_tmf_8
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_8, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 309
+  Name     : kworker/R-scsi_tmf_9
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_9, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 311
+  Name     : kworker/R-scsi_tmf_10
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_10, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 313
+  Name     : kworker/R-scsi_tmf_11
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_11, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 315
+  Name     : kworker/R-scsi_tmf_12
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_12, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 317
+  Name     : kworker/R-scsi_tmf_13
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_13, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 319
+  Name     : kworker/R-scsi_tmf_14
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_14, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 321
+  Name     : kworker/R-scsi_tmf_15
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_15, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 323
+  Name     : kworker/R-scsi_tmf_16
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_16, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 325
+  Name     : kworker/R-scsi_tmf_17
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_17, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 327
+  Name     : kworker/R-scsi_tmf_18
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_18, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 329
+  Name     : kworker/R-scsi_tmf_19
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_19, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 331
+  Name     : kworker/R-scsi_tmf_20
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_20, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 333
+  Name     : kworker/R-scsi_tmf_21
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_21, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 335
+  Name     : kworker/R-scsi_tmf_22
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_22, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 337
+  Name     : kworker/R-scsi_tmf_23
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_23, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 339
+  Name     : kworker/R-scsi_tmf_24
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_24, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 341
+  Name     : kworker/R-scsi_tmf_25
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_25, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 343
+  Name     : kworker/R-scsi_tmf_26
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_26, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 345
+  Name     : kworker/R-scsi_tmf_27
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_27, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 347
+  Name     : kworker/R-scsi_tmf_28
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_28, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 349
+  Name     : kworker/R-scsi_tmf_29
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_29, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 351
+  Name     : kworker/R-scsi_tmf_30
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_30, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 353
+  Name     : kworker/R-scsi_tmf_31
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_31, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 381
+  Name     : kworker/R-scsi_tmf_32
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_32, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 431
+  Name     : kworker/R-ext4-rsv-conversion
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:31
+  Alerts   : Unexpected root process: kworker/r-ext4-rsv-conversion, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=4
+  PID      : 518
+  Name     : systemd-timesyncd
+  User     : systemd-timesync
+  Path     : /usr/lib/systemd/systemd-timesyncd
+  CPU      : 0.0%  MEM: 0.1% (7.48 MB)
+  Started  : 2026-04-23 09:26:33
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 749
+  Name     : kworker/R-rpciod
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:35
+  Alerts   : Unexpected root process: kworker/r-rpciod, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 750
+  Name     : kworker/R-xprtiod
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:35
+  Alerts   : Unexpected root process: kworker/r-xprtiod, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 926
+  Name     : kworker/u516:1
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:36
+  Alerts   : Unexpected root process: kworker/u516:1, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 1691
+  Name     : kworker/R-cfg80211
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:45
+  Alerts   : Unexpected root process: kworker/r-cfg80211, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=4
+  PID      : 2218
+  Name     : at-spi-bus-launcher
+  User     : arnav
+  Path     : /usr/libexec/at-spi-bus-launcher
+  CPU      : 0.0%  MEM: 0.2% (8.07 MB)
+  Started  : 2026-04-23 09:27:08
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 3258
+  Name     : kworker/u517:1
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:27:13
+  Alerts   : Unexpected root process: kworker/u517:1, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=SUSPICIOUS  score=5
+  PID      : 3261
+  Name     : kworker/u517:2
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:27:13
+  Alerts   : Unexpected root process: kworker/u517:2, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=RISKY  score=9
+  PID      : 5
+  Name     : kworker/R-sync_wq
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-sync_wq, Suspicious keyword 'nc' in process, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=RISKY  score=7
+  PID      : 52
+  Name     : kworker/u514:0-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/u514:0-async, Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=RISKY  score=7
+  PID      : 54
+  Name     : kworker/u514:1-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/u514:1-async, Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=RISKY  score=7
+  PID      : 55
+  Name     : kworker/u514:2-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/u514:2-async, Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=RISKY  score=7
+  PID      : 56
+  Name     : kworker/u514:3-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/u514:3-async, Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=RISKY  score=7
+  PID      : 57
+  Name     : kworker/u514:4-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/u514:4-async, Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=RISKY  score=7
+  PID      : 58
+  Name     : kworker/u514:5-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/u514:5-async, Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=RISKY  score=7
+  PID      : 354
+  Name     : kworker/u514:6-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/u514:6-async, Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=RISKY  score=7
+  PID      : 355
+  Name     : kworker/u514:7-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/u514:7-async, Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=RISKY  score=7
+  PID      : 356
+  Name     : kworker/u514:8-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/u514:8-async, Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=RISKY  score=7
+  PID      : 357
+  Name     : kworker/u514:9-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/u514:9-async, Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=RISKY  score=7
+  PID      : 358
+  Name     : kworker/u514:10-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/u514:10-async, Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=RISKY  score=7
+  PID      : 359
+  Name     : kworker/u514:11-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/u514:11-async, Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=RISKY  score=7
+  PID      : 360
+  Name     : kworker/u514:12-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/u514:12-async, Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=RISKY  score=7
+  PID      : 361
+  Name     : kworker/u514:13-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/u514:13-async, Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=RISKY  score=7
+  PID      : 362
+  Name     : kworker/u514:14-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/u514:14-async, Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=RISKY  score=7
+  PID      : 363
+  Name     : kworker/u514:15-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/u514:15-async, Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=RISKY  score=7
+  PID      : 364
+  Name     : kworker/u514:16-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/u514:16-async, Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=RISKY  score=7
+  PID      : 365
+  Name     : kworker/u514:17-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/u514:17-async, Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=RISKY  score=7
+  PID      : 366
+  Name     : kworker/u514:18-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/u514:18-async, Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=RISKY  score=7
+  PID      : 367
+  Name     : kworker/u514:19-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/u514:19-async, Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=RISKY  score=7
+  PID      : 368
+  Name     : kworker/u514:20-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/u514:20-async, Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=RISKY  score=7
+  PID      : 369
+  Name     : kworker/u514:21-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/u514:21-async, Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=RISKY  score=7
+  PID      : 370
+  Name     : kworker/u514:22-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/u514:22-async, Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=RISKY  score=7
+  PID      : 371
+  Name     : kworker/u514:23-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/u514:23-async, Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=RISKY  score=7
+  PID      : 372
+  Name     : kworker/u514:24-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/u514:24-async, Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:29:23] ALERT  level=RISKY  score=7
+  PID      : 373
+  Name     : kworker/u514:25-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/u514:25-async, Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+SCAN END    2026-04-23 09:29:23
+  Scanned=376  Low=176  Suspicious=80  Risky=27
+============================================================
+
+
+============================================================
+SCAN START  2026-04-23 09:52:54
+============================================================
+  Host CPU : 2.7%  (cores: 6)
+  Memory   : 1.82 / 5.04 GB  (36.1%)
+  Disk     : 23.01 / 41.69 GB  (58.2%)
+  Processes: 332
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 4
+  Name     : kworker/R-rcu_gp
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-rcu_gp, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 6
+  Name     : kworker/R-kvfree_rcu_reclaim
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-kvfree_rcu_reclaim, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 7
+  Name     : kworker/R-slub_flushwq
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-slub_flushwq, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 8
+  Name     : kworker/R-netns
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-netns, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 10
+  Name     : kworker/0:0H-events_highpri
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/0:0h-events_highpri, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 13
+  Name     : kworker/R-mm_percpu_wq
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-mm_percpu_wq, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 26
+  Name     : kworker/1:0H-events_highpri
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/1:0h-events_highpri, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 32
+  Name     : kworker/2:0H-events_highpri
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/2:0h-events_highpri, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 38
+  Name     : kworker/3:0H-events_highpri
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/3:0h-events_highpri, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 44
+  Name     : kworker/4:0H-kblockd
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/4:0h-kblockd, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 50
+  Name     : kworker/5:0H-events_highpri
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/5:0h-events_highpri, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 60
+  Name     : kworker/R-inet_frag_wq
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-inet_frag_wq, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 69
+  Name     : kworker/R-writeback
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-writeback, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 73
+  Name     : kworker/R-kblockd
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-kblockd, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 74
+  Name     : kworker/R-blkcg_punt_bio
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-blkcg_punt_bio, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 75
+  Name     : kworker/R-kintegrityd
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-kintegrityd, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 79
+  Name     : kworker/R-tpm_dev_wq
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-tpm_dev_wq, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 80
+  Name     : kworker/R-edac-poller
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-edac-poller, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 81
+  Name     : kworker/R-devfreq_wq
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-devfreq_wq, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 82
+  Name     : kworker/R-quota_events_unbound
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-quota_events_unbound, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 83
+  Name     : kworker/0:1H-kblockd
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:27
+  Alerts   : Unexpected root process: kworker/0:1h-kblockd, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 88
+  Name     : kworker/R-kthrotld
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:27
+  Alerts   : Unexpected root process: kworker/r-kthrotld, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 122
+  Name     : kworker/R-acpi_thermal_pm
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:27
+  Alerts   : Unexpected root process: kworker/r-acpi_thermal_pm, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 124
+  Name     : kworker/R-mld
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:27
+  Alerts   : Unexpected root process: kworker/r-mld, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 125
+  Name     : kworker/R-ipv6_addrconf
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:27
+  Alerts   : Unexpected root process: kworker/r-ipv6_addrconf, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 127
+  Name     : kworker/R-kstrp
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:27
+  Alerts   : Unexpected root process: kworker/r-kstrp, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 136
+  Name     : kworker/u515:0
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:28
+  Alerts   : Unexpected root process: kworker/u515:0, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 137
+  Name     : kworker/u516:0-ttm
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:28
+  Alerts   : Unexpected root process: kworker/u516:0-ttm, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 201
+  Name     : kworker/1:1H-kblockd
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:28
+  Alerts   : Unexpected root process: kworker/1:1h-kblockd, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 233
+  Name     : kworker/5:1H-kblockd
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/5:1h-kblockd, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 235
+  Name     : kworker/2:1H-kblockd
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/2:1h-kblockd, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 245
+  Name     : kworker/4:1H-kblockd
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/4:1h-kblockd, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 267
+  Name     : kworker/3:1H-kblockd
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/3:1h-kblockd, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 269
+  Name     : kworker/R-ata_sff
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-ata_sff, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 270
+  Name     : kworker/R-mpt_poll_0
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-mpt_poll_0, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 271
+  Name     : kworker/R-mpt/0
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-mpt/0, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 273
+  Name     : kworker/R-scsi_tmf_0
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_0, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 275
+  Name     : kworker/R-scsi_tmf_1
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_1, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 293
+  Name     : kworker/R-ttm
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-ttm, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 295
+  Name     : kworker/R-scsi_tmf_2
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_2, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 297
+  Name     : kworker/R-scsi_tmf_3
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_3, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 299
+  Name     : kworker/R-scsi_tmf_4
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_4, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 301
+  Name     : kworker/R-scsi_tmf_5
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_5, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 303
+  Name     : kworker/R-scsi_tmf_6
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_6, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 305
+  Name     : kworker/R-scsi_tmf_7
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_7, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 307
+  Name     : kworker/R-scsi_tmf_8
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_8, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 309
+  Name     : kworker/R-scsi_tmf_9
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_9, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 311
+  Name     : kworker/R-scsi_tmf_10
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_10, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 313
+  Name     : kworker/R-scsi_tmf_11
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_11, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 315
+  Name     : kworker/R-scsi_tmf_12
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_12, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 317
+  Name     : kworker/R-scsi_tmf_13
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_13, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 319
+  Name     : kworker/R-scsi_tmf_14
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_14, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 321
+  Name     : kworker/R-scsi_tmf_15
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_15, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 323
+  Name     : kworker/R-scsi_tmf_16
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_16, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 325
+  Name     : kworker/R-scsi_tmf_17
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_17, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 327
+  Name     : kworker/R-scsi_tmf_18
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_18, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 329
+  Name     : kworker/R-scsi_tmf_19
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_19, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 331
+  Name     : kworker/R-scsi_tmf_20
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_20, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 333
+  Name     : kworker/R-scsi_tmf_21
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_21, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 335
+  Name     : kworker/R-scsi_tmf_22
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_22, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 337
+  Name     : kworker/R-scsi_tmf_23
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_23, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 339
+  Name     : kworker/R-scsi_tmf_24
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_24, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 341
+  Name     : kworker/R-scsi_tmf_25
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_25, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 343
+  Name     : kworker/R-scsi_tmf_26
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_26, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 345
+  Name     : kworker/R-scsi_tmf_27
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_27, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 347
+  Name     : kworker/R-scsi_tmf_28
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_28, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 349
+  Name     : kworker/R-scsi_tmf_29
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_29, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 351
+  Name     : kworker/R-scsi_tmf_30
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_30, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 353
+  Name     : kworker/R-scsi_tmf_31
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_31, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 381
+  Name     : kworker/R-scsi_tmf_32
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_32, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 431
+  Name     : kworker/R-ext4-rsv-conversion
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:31
+  Alerts   : Unexpected root process: kworker/r-ext4-rsv-conversion, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=4
+  PID      : 518
+  Name     : systemd-timesyncd
+  User     : systemd-timesync
+  Path     : /usr/lib/systemd/systemd-timesyncd
+  CPU      : 0.0%  MEM: 0.1% (7.48 MB)
+  Started  : 2026-04-23 09:26:33
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 749
+  Name     : kworker/R-rpciod
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:35
+  Alerts   : Unexpected root process: kworker/r-rpciod, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 750
+  Name     : kworker/R-xprtiod
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:35
+  Alerts   : Unexpected root process: kworker/r-xprtiod, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 926
+  Name     : kworker/u516:1
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:36
+  Alerts   : Unexpected root process: kworker/u516:1, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 1691
+  Name     : kworker/R-cfg80211
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:45
+  Alerts   : Unexpected root process: kworker/r-cfg80211, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=4
+  PID      : 2218
+  Name     : at-spi-bus-launcher
+  User     : arnav
+  Path     : /usr/libexec/at-spi-bus-launcher
+  CPU      : 0.0%  MEM: 0.2% (8.07 MB)
+  Started  : 2026-04-23 09:27:08
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 3258
+  Name     : kworker/u517:1-ttm
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:27:13
+  Alerts   : Unexpected root process: kworker/u517:1-ttm, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=SUSPICIOUS  score=5
+  PID      : 3261
+  Name     : kworker/u517:2-ttm
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:27:13
+  Alerts   : Unexpected root process: kworker/u517:2-ttm, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 09:52:54] ALERT  level=RISKY  score=9
+  PID      : 5
+  Name     : kworker/R-sync_wq
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-sync_wq, Suspicious keyword 'nc' in process, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+SCAN END    2026-04-23 09:52:54
+  Scanned=332  Low=162  Suspicious=79  Risky=1
+============================================================
+
+
+============================================================
+SCAN START  2026-04-23 10:36:38
+============================================================
+  Host CPU : 2.0%  (cores: 6)
+  Memory   : 2.14 / 5.04 GB  (42.5%)
+  Disk     : 23.01 / 41.69 GB  (58.2%)
+  Processes: 336
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 4
+  Name     : kworker/R-rcu_gp
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-rcu_gp, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 6
+  Name     : kworker/R-kvfree_rcu_reclaim
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-kvfree_rcu_reclaim, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 7
+  Name     : kworker/R-slub_flushwq
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-slub_flushwq, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 8
+  Name     : kworker/R-netns
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-netns, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 10
+  Name     : kworker/0:0H-events_highpri
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/0:0h-events_highpri, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 13
+  Name     : kworker/R-mm_percpu_wq
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-mm_percpu_wq, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 26
+  Name     : kworker/1:0H-events_highpri
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/1:0h-events_highpri, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 32
+  Name     : kworker/2:0H-events_highpri
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/2:0h-events_highpri, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 38
+  Name     : kworker/3:0H-events_highpri
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/3:0h-events_highpri, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 44
+  Name     : kworker/4:0H-kblockd
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/4:0h-kblockd, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 50
+  Name     : kworker/5:0H-events_highpri
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/5:0h-events_highpri, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 60
+  Name     : kworker/R-inet_frag_wq
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-inet_frag_wq, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 69
+  Name     : kworker/R-writeback
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-writeback, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 73
+  Name     : kworker/R-kblockd
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-kblockd, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 74
+  Name     : kworker/R-blkcg_punt_bio
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-blkcg_punt_bio, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 75
+  Name     : kworker/R-kintegrityd
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-kintegrityd, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 79
+  Name     : kworker/R-tpm_dev_wq
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-tpm_dev_wq, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 80
+  Name     : kworker/R-edac-poller
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-edac-poller, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 81
+  Name     : kworker/R-devfreq_wq
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-devfreq_wq, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 82
+  Name     : kworker/R-quota_events_unbound
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-quota_events_unbound, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 83
+  Name     : kworker/0:1H-kblockd
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:27
+  Alerts   : Unexpected root process: kworker/0:1h-kblockd, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 88
+  Name     : kworker/R-kthrotld
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:27
+  Alerts   : Unexpected root process: kworker/r-kthrotld, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 122
+  Name     : kworker/R-acpi_thermal_pm
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:27
+  Alerts   : Unexpected root process: kworker/r-acpi_thermal_pm, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 124
+  Name     : kworker/R-mld
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:27
+  Alerts   : Unexpected root process: kworker/r-mld, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 125
+  Name     : kworker/R-ipv6_addrconf
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:27
+  Alerts   : Unexpected root process: kworker/r-ipv6_addrconf, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 127
+  Name     : kworker/R-kstrp
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:27
+  Alerts   : Unexpected root process: kworker/r-kstrp, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 136
+  Name     : kworker/u515:0
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:28
+  Alerts   : Unexpected root process: kworker/u515:0, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 137
+  Name     : kworker/u516:0-ttm
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:28
+  Alerts   : Unexpected root process: kworker/u516:0-ttm, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 201
+  Name     : kworker/1:1H-kblockd
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:28
+  Alerts   : Unexpected root process: kworker/1:1h-kblockd, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 233
+  Name     : kworker/5:1H-kblockd
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/5:1h-kblockd, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 235
+  Name     : kworker/2:1H-kblockd
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/2:1h-kblockd, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 245
+  Name     : kworker/4:1H-kblockd
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/4:1h-kblockd, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 267
+  Name     : kworker/3:1H-kblockd
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/3:1h-kblockd, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 269
+  Name     : kworker/R-ata_sff
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-ata_sff, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 270
+  Name     : kworker/R-mpt_poll_0
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-mpt_poll_0, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 271
+  Name     : kworker/R-mpt/0
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-mpt/0, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 273
+  Name     : kworker/R-scsi_tmf_0
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_0, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 275
+  Name     : kworker/R-scsi_tmf_1
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_1, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 293
+  Name     : kworker/R-ttm
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-ttm, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 295
+  Name     : kworker/R-scsi_tmf_2
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_2, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 297
+  Name     : kworker/R-scsi_tmf_3
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_3, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 299
+  Name     : kworker/R-scsi_tmf_4
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_4, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 301
+  Name     : kworker/R-scsi_tmf_5
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_5, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 303
+  Name     : kworker/R-scsi_tmf_6
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_6, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 305
+  Name     : kworker/R-scsi_tmf_7
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_7, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 307
+  Name     : kworker/R-scsi_tmf_8
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_8, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 309
+  Name     : kworker/R-scsi_tmf_9
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_9, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 311
+  Name     : kworker/R-scsi_tmf_10
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_10, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 313
+  Name     : kworker/R-scsi_tmf_11
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_11, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 315
+  Name     : kworker/R-scsi_tmf_12
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_12, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 317
+  Name     : kworker/R-scsi_tmf_13
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_13, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 319
+  Name     : kworker/R-scsi_tmf_14
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_14, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 321
+  Name     : kworker/R-scsi_tmf_15
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_15, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 323
+  Name     : kworker/R-scsi_tmf_16
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_16, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 325
+  Name     : kworker/R-scsi_tmf_17
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_17, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 327
+  Name     : kworker/R-scsi_tmf_18
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_18, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 329
+  Name     : kworker/R-scsi_tmf_19
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_19, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 331
+  Name     : kworker/R-scsi_tmf_20
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_20, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 333
+  Name     : kworker/R-scsi_tmf_21
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_21, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 335
+  Name     : kworker/R-scsi_tmf_22
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_22, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 337
+  Name     : kworker/R-scsi_tmf_23
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_23, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 339
+  Name     : kworker/R-scsi_tmf_24
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_24, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 341
+  Name     : kworker/R-scsi_tmf_25
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_25, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 343
+  Name     : kworker/R-scsi_tmf_26
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_26, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 345
+  Name     : kworker/R-scsi_tmf_27
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_27, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 347
+  Name     : kworker/R-scsi_tmf_28
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_28, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 349
+  Name     : kworker/R-scsi_tmf_29
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_29, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 351
+  Name     : kworker/R-scsi_tmf_30
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_30, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 353
+  Name     : kworker/R-scsi_tmf_31
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_31, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 381
+  Name     : kworker/R-scsi_tmf_32
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:29
+  Alerts   : Unexpected root process: kworker/r-scsi_tmf_32, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 431
+  Name     : kworker/R-ext4-rsv-conversion
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:31
+  Alerts   : Unexpected root process: kworker/r-ext4-rsv-conversion, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=4
+  PID      : 518
+  Name     : systemd-timesyncd
+  User     : systemd-timesync
+  Path     : /usr/lib/systemd/systemd-timesyncd
+  CPU      : 0.0%  MEM: 0.1% (7.48 MB)
+  Started  : 2026-04-23 09:26:33
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 749
+  Name     : kworker/R-rpciod
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:35
+  Alerts   : Unexpected root process: kworker/r-rpciod, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 750
+  Name     : kworker/R-xprtiod
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:35
+  Alerts   : Unexpected root process: kworker/r-xprtiod, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 926
+  Name     : kworker/u516:1
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:36
+  Alerts   : Unexpected root process: kworker/u516:1, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 1691
+  Name     : kworker/R-cfg80211
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:45
+  Alerts   : Unexpected root process: kworker/r-cfg80211, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=4
+  PID      : 2218
+  Name     : at-spi-bus-launcher
+  User     : arnav
+  Path     : /usr/libexec/at-spi-bus-launcher
+  CPU      : 0.0%  MEM: 0.2% (8.08 MB)
+  Started  : 2026-04-23 09:27:08
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 3258
+  Name     : kworker/u517:1-ttm
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:27:13
+  Alerts   : Unexpected root process: kworker/u517:1-ttm, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=SUSPICIOUS  score=5
+  PID      : 3261
+  Name     : kworker/u517:2-ttm
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:27:13
+  Alerts   : Unexpected root process: kworker/u517:2-ttm, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:36:38] ALERT  level=RISKY  score=9
+  PID      : 5
+  Name     : kworker/R-sync_wq
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Unexpected root process: kworker/r-sync_wq, Suspicious keyword 'nc' in process, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+SCAN END    2026-04-23 10:36:38
+  Scanned=334  Low=153  Suspicious=79  Risky=1
+============================================================
+
+
+============================================================
+SCAN START  2026-04-23 10:41:40
+============================================================
+  Host CPU : 4.0%  (cores: 6)
+  Memory   : 2.17 / 5.04 GB  (43.1%)
+  Disk     : 23.01 / 41.69 GB  (58.2%)
+  Processes: 338
+
+[2026-04-23 10:41:40] ALERT  level=SUSPICIOUS  score=6
+  PID      : 5
+  Name     : kworker/R-sync_wq
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Suspicious keyword 'nc' in process, Elevated priority (nice=-20)
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:41:40] ALERT  level=SUSPICIOUS  score=4
+  PID      : 518
+  Name     : systemd-timesyncd
+  User     : systemd-timesync
+  Path     : /usr/lib/systemd/systemd-timesyncd
+  CPU      : 0.0%  MEM: 0.1% (7.48 MB)
+  Started  : 2026-04-23 09:26:33
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:41:40] ALERT  level=SUSPICIOUS  score=4
+  PID      : 2218
+  Name     : at-spi-bus-launcher
+  User     : arnav
+  Path     : /usr/libexec/at-spi-bus-launcher
+  CPU      : 0.0%  MEM: 0.2% (8.08 MB)
+  Started  : 2026-04-23 09:27:08
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+SCAN END    2026-04-23 10:41:40
+  Scanned=337  Low=90  Suspicious=3  Risky=0
+============================================================
+
+
+============================================================
+SCAN START  2026-04-23 10:51:47
+============================================================
+  Host CPU : 7.0%  (cores: 6)
+  Memory   : 2.19 / 5.04 GB  (43.4%)
+  Disk     : 23.01 / 41.69 GB  (58.2%)
+  Processes: 337
+
+[2026-04-23 10:51:47] ALERT  level=SUSPICIOUS  score=4
+  PID      : 5
+  Name     : kworker/R-sync_wq
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-23 09:26:26
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:51:47] ALERT  level=SUSPICIOUS  score=4
+  PID      : 518
+  Name     : systemd-timesyncd
+  User     : systemd-timesync
+  Path     : /usr/lib/systemd/systemd-timesyncd
+  CPU      : 0.0%  MEM: 0.1% (7.48 MB)
+  Started  : 2026-04-23 09:26:33
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-23 10:51:47] ALERT  level=SUSPICIOUS  score=4
+  PID      : 2218
+  Name     : at-spi-bus-launcher
+  User     : arnav
+  Path     : /usr/libexec/at-spi-bus-launcher
+  CPU      : 0.0%  MEM: 0.2% (8.08 MB)
+  Started  : 2026-04-23 09:27:08
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+SCAN END    2026-04-23 10:51:47
+  Scanned=336  Low=13  Suspicious=3  Risky=0
+============================================================
+
+
+============================================================
+SCAN START  2026-04-28 07:18:46
+============================================================
+  Host CPU : 4.3%  (cores: 6)
+  Memory   : 1.43 / 5.04 GB  (28.5%)
+  Disk     : 23.44 / 41.69 GB  (59.3%)
+  Processes: 382
+
+[2026-04-28 07:18:46] ALERT  level=SUSPICIOUS  score=4
+  PID      : 5
+  Name     : kworker/R-sync_wq
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-28 07:16:30
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-28 07:18:46] ALERT  level=SUSPICIOUS  score=4
+  PID      : 51
+  Name     : kworker/u513:0-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-28 07:16:30
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-28 07:18:46] ALERT  level=SUSPICIOUS  score=4
+  PID      : 66
+  Name     : kworker/u513:1-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-28 07:16:31
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-28 07:18:46] ALERT  level=SUSPICIOUS  score=4
+  PID      : 68
+  Name     : kworker/u513:2-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-28 07:16:31
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-28 07:18:46] ALERT  level=SUSPICIOUS  score=4
+  PID      : 188
+  Name     : kworker/u513:3-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-28 07:16:34
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-28 07:18:46] ALERT  level=SUSPICIOUS  score=4
+  PID      : 355
+  Name     : kworker/u513:4-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-28 07:16:35
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-28 07:18:46] ALERT  level=SUSPICIOUS  score=4
+  PID      : 356
+  Name     : kworker/u513:5-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-28 07:16:35
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-28 07:18:46] ALERT  level=SUSPICIOUS  score=4
+  PID      : 357
+  Name     : kworker/u513:6-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-28 07:16:35
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-28 07:18:46] ALERT  level=SUSPICIOUS  score=4
+  PID      : 358
+  Name     : kworker/u513:7-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-28 07:16:35
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-28 07:18:46] ALERT  level=SUSPICIOUS  score=4
+  PID      : 359
+  Name     : kworker/u513:8-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-28 07:16:35
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-28 07:18:46] ALERT  level=SUSPICIOUS  score=4
+  PID      : 360
+  Name     : kworker/u513:9-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-28 07:16:35
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-28 07:18:46] ALERT  level=SUSPICIOUS  score=4
+  PID      : 361
+  Name     : kworker/u513:10-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-28 07:16:35
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-28 07:18:46] ALERT  level=SUSPICIOUS  score=4
+  PID      : 362
+  Name     : kworker/u513:11-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-28 07:16:35
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-28 07:18:46] ALERT  level=SUSPICIOUS  score=4
+  PID      : 363
+  Name     : kworker/u513:12-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-28 07:16:35
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-28 07:18:46] ALERT  level=SUSPICIOUS  score=4
+  PID      : 364
+  Name     : kworker/u513:13-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-28 07:16:35
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-28 07:18:46] ALERT  level=SUSPICIOUS  score=4
+  PID      : 365
+  Name     : kworker/u513:14-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-28 07:16:35
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-28 07:18:46] ALERT  level=SUSPICIOUS  score=4
+  PID      : 366
+  Name     : kworker/u513:15-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-28 07:16:35
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-28 07:18:46] ALERT  level=SUSPICIOUS  score=4
+  PID      : 367
+  Name     : kworker/u513:16-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-28 07:16:35
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-28 07:18:46] ALERT  level=SUSPICIOUS  score=4
+  PID      : 368
+  Name     : kworker/u513:17-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-28 07:16:35
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-28 07:18:46] ALERT  level=SUSPICIOUS  score=4
+  PID      : 369
+  Name     : kworker/u513:18-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-28 07:16:35
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-28 07:18:46] ALERT  level=SUSPICIOUS  score=4
+  PID      : 370
+  Name     : kworker/u513:19-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-28 07:16:35
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-28 07:18:46] ALERT  level=SUSPICIOUS  score=4
+  PID      : 371
+  Name     : kworker/u513:20-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-28 07:16:35
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-28 07:18:46] ALERT  level=SUSPICIOUS  score=4
+  PID      : 372
+  Name     : kworker/u513:21-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-28 07:16:35
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-28 07:18:46] ALERT  level=SUSPICIOUS  score=4
+  PID      : 373
+  Name     : kworker/u513:22-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-28 07:16:35
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-28 07:18:46] ALERT  level=SUSPICIOUS  score=4
+  PID      : 374
+  Name     : kworker/u513:23-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-28 07:16:35
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-28 07:18:46] ALERT  level=SUSPICIOUS  score=4
+  PID      : 375
+  Name     : kworker/u513:24-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-28 07:16:35
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-28 07:18:46] ALERT  level=SUSPICIOUS  score=4
+  PID      : 376
+  Name     : kworker/u513:25-async
+  User     : root
+  Path     : N/A
+  CPU      : 0.0%  MEM: 0.0% (0.0 MB)
+  Started  : 2026-04-28 07:16:35
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-28 07:18:46] ALERT  level=SUSPICIOUS  score=4
+  PID      : 521
+  Name     : systemd-timesyncd
+  User     : systemd-timesync
+  Path     : /usr/lib/systemd/systemd-timesyncd
+  CPU      : 0.0%  MEM: 0.1% (7.44 MB)
+  Started  : 2026-04-28 07:16:40
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-04-28 07:18:46] ALERT  level=SUSPICIOUS  score=4
+  PID      : 2219
+  Name     : at-spi-bus-launcher
+  User     : arnav
+  Path     : /usr/libexec/at-spi-bus-launcher
+  CPU      : 0.0%  MEM: 0.1% (7.47 MB)
+  Started  : 2026-04-28 07:17:04
+  Alerts   : Suspicious keyword 'nc' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+SCAN END    2026-04-28 07:18:46
+  Scanned=378  Low=13  Suspicious=29  Risky=0
+============================================================
+
+
+============================================================
+SCAN START  2026-04-28 07:57:06
+============================================================
+  Host CPU : 2.3%  (cores: 6)
+  Memory   : 1.73 / 5.04 GB  (34.4%)
+  Disk     : 23.44 / 41.69 GB  (59.3%)
+  Processes: 339
+
+SCAN END    2026-04-28 07:57:06
+  Scanned=334  Low=12  Suspicious=0  Risky=0
+============================================================
+
+
+============================================================
+SCAN START  2026-05-05 05:22:08
+============================================================
+  Host CPU : 3.7%  (cores: 6)
+  Memory   : 1.51 / 5.04 GB  (30.0%)
+  Disk     : 23.53 / 41.69 GB  (59.5%)
+  Processes: 383
+
+SCAN END    2026-05-05 05:22:08
+  Scanned=376  Low=14  Suspicious=0  Risky=0
+============================================================
+
+
+============================================================
+SCAN START  2026-05-05 05:22:47
+============================================================
+  Host CPU : 3.3%  (cores: 6)
+  Memory   : 1.5 / 5.04 GB  (29.8%)
+  Disk     : 23.53 / 41.69 GB  (59.5%)
+  Processes: 373
+
+SCAN END    2026-05-05 05:22:47
+  Scanned=373  Low=14  Suspicious=0  Risky=0
+============================================================
+
+
+============================================================
+SCAN START  2026-05-05 05:24:44
+============================================================
+  Host CPU : 5.4%  (cores: 6)
+  Memory   : 1.56 / 5.04 GB  (30.9%)
+  Disk     : 23.53 / 41.69 GB  (59.5%)
+  Processes: 340
+
+SCAN END    2026-05-05 05:24:44
+  Scanned=335  Low=13  Suspicious=0  Risky=0
+============================================================
+
+
+============================================================
+SCAN START  2026-05-05 05:28:43
+============================================================
+  Host CPU : 4.0%  (cores: 6)
+  Memory   : 1.64 / 5.04 GB  (32.6%)
+  Disk     : 23.53 / 41.69 GB  (59.5%)
+  Processes: 339
+
+SCAN END    2026-05-05 05:28:43
+  Scanned=330  Low=12  Suspicious=0  Risky=0
+============================================================
+
+
+============================================================
+SCAN START  2026-05-05 05:32:32
+============================================================
+  Host CPU : 1.0%  (cores: 6)
+  Memory   : 1.82 / 5.04 GB  (36.2%)
+  Disk     : 23.53 / 41.69 GB  (59.5%)
+  Processes: 339
+
+SCAN END    2026-05-05 05:32:32
+  Scanned=338  Low=12  Suspicious=0  Risky=0
+============================================================
+
+
+============================================================
+SCAN START  2026-05-05 05:33:59
+============================================================
+  Host CPU : 3.7%  (cores: 6)
+  Memory   : 1.81 / 5.04 GB  (36.0%)
+  Disk     : 23.53 / 41.69 GB  (59.5%)
+  Processes: 337
+
+SCAN END    2026-05-05 05:33:59
+  Scanned=334  Low=13  Suspicious=0  Risky=0
+============================================================
+
+
+============================================================
+SCAN START  2026-05-05 05:40:03
+============================================================
+  Host CPU : 1.0%  (cores: 6)
+  Memory   : 1.89 / 5.04 GB  (37.6%)
+  Disk     : 23.53 / 41.69 GB  (59.5%)
+  Processes: 343
+
+SCAN END    2026-05-05 05:40:03
+  Scanned=342  Low=12  Suspicious=0  Risky=0
+============================================================
+
+
+============================================================
+SCAN START  2026-05-05 05:41:04
+============================================================
+  Host CPU : 1.3%  (cores: 6)
+  Memory   : 1.9 / 5.04 GB  (37.7%)
+  Disk     : 23.53 / 41.69 GB  (59.5%)
+  Processes: 343
+
+SCAN END    2026-05-05 05:41:04
+  Scanned=342  Low=12  Suspicious=0  Risky=0
+============================================================
+
+
+============================================================
+SCAN START  2026-05-05 05:54:29
+============================================================
+  Host CPU : 72.5%  (cores: 6)
+  Memory   : 1.49 / 5.04 GB  (29.5%)
+  Disk     : 23.54 / 41.69 GB  (59.5%)
+  Processes: 371
+
+SCAN END    2026-05-05 05:54:29
+  Scanned=371  Low=17  Suspicious=0  Risky=0
+============================================================
+
+
+============================================================
+SCAN START  2026-05-05 05:55:07
+============================================================
+  Host CPU : 71.1%  (cores: 6)
+  Memory   : 1.49 / 5.04 GB  (29.6%)
+  Disk     : 23.54 / 41.69 GB  (59.5%)
+  Processes: 371
+
+SCAN END    2026-05-05 05:55:07
+  Scanned=371  Low=17  Suspicious=0  Risky=0
+============================================================
+
+[2026-05-05 05:55:40] ACTION  INSPECT: PID=12 name=kworker/u512:0-ipv6_addrconf
+
+============================================================
+SCAN START  2026-05-05 06:04:53
+============================================================
+  Host CPU : 2.3%  (cores: 6)
+  Memory   : 1.57 / 5.04 GB  (31.2%)
+  Disk     : 23.54 / 41.69 GB  (59.5%)
+  Processes: 330
+
+SCAN END    2026-05-05 06:04:53
+  Scanned=329  Low=13  Suspicious=0  Risky=0
+============================================================
+
+
+============================================================
+SCAN START  2026-05-05 06:46:05
+============================================================
+  Host CPU : 100.0%  (cores: 6)
+  Memory   : 1.7 / 5.04 GB  (33.8%)
+  Disk     : 23.55 / 41.69 GB  (59.6%)
+  Processes: 358
+
+SCAN END    2026-05-05 06:46:05
+  Scanned=357  Low=10  Suspicious=0  Risky=0
+============================================================
+
+
+============================================================
+SCAN START  2026-05-05 06:51:39
+============================================================
+  Host CPU : 99.7%  (cores: 6)
+  Memory   : 1.74 / 5.04 GB  (34.6%)
+  Disk     : 23.55 / 41.69 GB  (59.6%)
+  Processes: 352
+
+SCAN END    2026-05-05 06:51:39
+  Scanned=349  Low=15  Suspicious=0  Risky=0
+============================================================
+
+
+============================================================
+SCAN START  2026-05-05 06:52:37
+============================================================
+  Host CPU : 69.4%  (cores: 6)
+  Memory   : 1.72 / 5.04 GB  (34.1%)
+  Disk     : 23.55 / 41.69 GB  (59.6%)
+  Processes: 340
+
+SCAN END    2026-05-05 06:52:37
+  Scanned=339  Low=14  Suspicious=0  Risky=0
+============================================================
+
+
+============================================================
+SCAN START  2026-05-05 07:00:44
+============================================================
+  Host CPU : 100.0%  (cores: 6)
+  Memory   : 1.71 / 5.04 GB  (33.9%)
+  Disk     : 23.55 / 41.69 GB  (59.6%)
+  Processes: 346
+
+SCAN END    2026-05-05 07:00:44
+  Scanned=346  Low=13  Suspicious=0  Risky=0
+============================================================
+
+
+============================================================
+SCAN START  2026-05-05 07:13:46
+============================================================
+  Host CPU : 100.0%  (cores: 6)
+  Memory   : 1.98 / 5.04 GB  (39.3%)
+  Disk     : 23.56 / 41.69 GB  (59.6%)
+  Processes: 362
+
+[2026-05-05 07:13:46] ALERT  level=SUSPICIOUS  score=4
+  PID      : 28433
+  Name     : stress-ng
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 0.0%  MEM: 0.2% (12.26 MB)
+  Started  : 2026-05-05 07:12:03
+  Alerts   : Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:13:46] ALERT  level=SUSPICIOUS  score=4
+  PID      : 28451
+  Name     : stress-ng
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 0.0%  MEM: 0.2% (12.39 MB)
+  Started  : 2026-05-05 07:12:06
+  Alerts   : Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:13:46] ALERT  level=SUSPICIOUS  score=4
+  PID      : 28453
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 19.9%  MEM: 0.2% (8.62 MB)
+  Started  : 2026-05-05 07:12:06
+  Alerts   : Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:13:46] ALERT  level=SUSPICIOUS  score=4
+  PID      : 28488
+  Name     : stress-ng
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 0.0%  MEM: 0.2% (12.27 MB)
+  Started  : 2026-05-05 07:12:11
+  Alerts   : Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:13:46] ALERT  level=SUSPICIOUS  score=4
+  PID      : 29085
+  Name     : stress-ng
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 0.0%  MEM: 0.2% (11.47 MB)
+  Started  : 2026-05-05 07:13:20
+  Alerts   : Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:13:46] ALERT  level=RISKY  score=9
+  PID      : 28435
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 39.9%  MEM: 0.2% (10.06 MB)
+  Started  : 2026-05-05 07:12:04
+  Alerts   : High CPU: 39.9%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:13:46] ALERT  level=RISKY  score=9
+  PID      : 28436
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 37.1%  MEM: 0.2% (10.06 MB)
+  Started  : 2026-05-05 07:12:04
+  Alerts   : High CPU: 37.1%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:13:46] ALERT  level=RISKY  score=9
+  PID      : 28437
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 37.4%  MEM: 0.2% (10.06 MB)
+  Started  : 2026-05-05 07:12:04
+  Alerts   : High CPU: 37.4%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:13:46] ALERT  level=RISKY  score=9
+  PID      : 28438
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 39.9%  MEM: 0.2% (10.06 MB)
+  Started  : 2026-05-05 07:12:04
+  Alerts   : High CPU: 39.9%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:13:46] ALERT  level=RISKY  score=9
+  PID      : 28454
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 37.1%  MEM: 0.2% (8.62 MB)
+  Started  : 2026-05-05 07:12:06
+  Alerts   : High CPU: 37.1%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:13:46] ALERT  level=RISKY  score=9
+  PID      : 28455
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 56.3%  MEM: 0.2% (8.62 MB)
+  Started  : 2026-05-05 07:12:06
+  Alerts   : High CPU: 56.3%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:13:46] ALERT  level=RISKY  score=9
+  PID      : 28456
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 39.9%  MEM: 0.2% (8.62 MB)
+  Started  : 2026-05-05 07:12:06
+  Alerts   : High CPU: 39.9%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:13:46] ALERT  level=RISKY  score=9
+  PID      : 28490
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 39.9%  MEM: 0.2% (9.19 MB)
+  Started  : 2026-05-05 07:12:11
+  Alerts   : High CPU: 39.9%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:13:46] ALERT  level=RISKY  score=9
+  PID      : 28491
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 39.9%  MEM: 0.2% (9.19 MB)
+  Started  : 2026-05-05 07:12:11
+  Alerts   : High CPU: 39.9%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:13:46] ALERT  level=RISKY  score=9
+  PID      : 28492
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 39.9%  MEM: 0.2% (9.19 MB)
+  Started  : 2026-05-05 07:12:11
+  Alerts   : High CPU: 39.9%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:13:46] ALERT  level=RISKY  score=9
+  PID      : 28493
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 39.9%  MEM: 0.2% (9.19 MB)
+  Started  : 2026-05-05 07:12:11
+  Alerts   : High CPU: 39.9%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:13:46] ALERT  level=RISKY  score=9
+  PID      : 29092
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 37.3%  MEM: 0.2% (8.88 MB)
+  Started  : 2026-05-05 07:13:20
+  Alerts   : High CPU: 37.3%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:13:46] ALERT  level=RISKY  score=9
+  PID      : 29093
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 59.8%  MEM: 0.2% (8.88 MB)
+  Started  : 2026-05-05 07:13:20
+  Alerts   : High CPU: 59.8%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:13:46] ALERT  level=RISKY  score=9
+  PID      : 29095
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 39.9%  MEM: 0.2% (8.88 MB)
+  Started  : 2026-05-05 07:13:20
+  Alerts   : High CPU: 39.9%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:13:46] ALERT  level=RISKY  score=9
+  PID      : 29096
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 39.9%  MEM: 0.2% (8.88 MB)
+  Started  : 2026-05-05 07:13:20
+  Alerts   : High CPU: 39.9%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+SCAN END    2026-05-05 07:13:46
+  Scanned=359  Low=10  Suspicious=5  Risky=15
+============================================================
+
+
+============================================================
+SCAN START  2026-05-05 07:21:41
+============================================================
+  Host CPU : 5.0%  (cores: 6)
+  Memory   : 1.72 / 5.04 GB  (34.2%)
+  Disk     : 23.56 / 41.69 GB  (59.6%)
+  Processes: 343
+
+[2026-05-05 07:21:41] ALERT  level=SUSPICIOUS  score=5
+  PID      : 14196
+  Name     : gnome-terminal-server
+  User     : arnav
+  Path     : /usr/libexec/gnome-terminal-server
+  CPU      : 39.8%  MEM: 1.5% (78.02 MB)
+  Started  : 2026-05-05 06:46:42
+  Alerts   : High CPU: 39.8%
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+SCAN END    2026-05-05 07:21:41
+  Scanned=337  Low=10  Suspicious=1  Risky=0
+============================================================
+
+
+============================================================
+SCAN START  2026-05-05 07:41:26
+============================================================
+  Host CPU : 70.3%  (cores: 6)
+  Memory   : 1.69 / 5.04 GB  (33.5%)
+  Disk     : 23.58 / 41.69 GB  (59.6%)
+  Processes: 349
+
+[2026-05-05 07:41:26] ALERT  level=SUSPICIOUS  score=4
+  PID      : 43126
+  Name     : stress-ng
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 0.0%  MEM: 0.2% (11.53 MB)
+  Started  : 2026-05-05 07:40:38
+  Alerts   : Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:41:26] ALERT  level=RISKY  score=9
+  PID      : 43128
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 99.3%  MEM: 0.2% (8.5 MB)
+  Started  : 2026-05-05 07:40:39
+  Alerts   : High CPU: 99.3%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:41:26] ALERT  level=RISKY  score=9
+  PID      : 43129
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 99.3%  MEM: 0.2% (8.5 MB)
+  Started  : 2026-05-05 07:40:39
+  Alerts   : High CPU: 99.3%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:41:26] ALERT  level=RISKY  score=9
+  PID      : 43130
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 99.4%  MEM: 0.2% (8.5 MB)
+  Started  : 2026-05-05 07:40:39
+  Alerts   : High CPU: 99.4%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:41:26] ALERT  level=RISKY  score=9
+  PID      : 43131
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 99.2%  MEM: 0.2% (8.5 MB)
+  Started  : 2026-05-05 07:40:39
+  Alerts   : High CPU: 99.2%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+SCAN END    2026-05-05 07:41:26
+  Scanned=349  Low=10  Suspicious=1  Risky=4
+============================================================
+
+
+============================================================
+SCAN START  2026-05-05 07:42:17
+============================================================
+  Host CPU : 69.4%  (cores: 6)
+  Memory   : 1.69 / 5.04 GB  (33.6%)
+  Disk     : 23.58 / 41.69 GB  (59.6%)
+  Processes: 343
+
+[2026-05-05 07:42:17] ALERT  level=SUSPICIOUS  score=4
+  PID      : 43126
+  Name     : stress-ng
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 0.0%  MEM: 0.2% (11.53 MB)
+  Started  : 2026-05-05 07:40:38
+  Alerts   : Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:42:17] ALERT  level=RISKY  score=9
+  PID      : 43128
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 119.2%  MEM: 0.2% (8.5 MB)
+  Started  : 2026-05-05 07:40:39
+  Alerts   : High CPU: 119.2%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:42:17] ALERT  level=RISKY  score=9
+  PID      : 43129
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 99.5%  MEM: 0.2% (8.5 MB)
+  Started  : 2026-05-05 07:40:39
+  Alerts   : High CPU: 99.5%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:42:17] ALERT  level=RISKY  score=9
+  PID      : 43130
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 99.3%  MEM: 0.2% (8.5 MB)
+  Started  : 2026-05-05 07:40:39
+  Alerts   : High CPU: 99.3%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:42:17] ALERT  level=RISKY  score=9
+  PID      : 43131
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 99.2%  MEM: 0.2% (8.5 MB)
+  Started  : 2026-05-05 07:40:39
+  Alerts   : High CPU: 99.2%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+SCAN END    2026-05-05 07:42:17
+  Scanned=343  Low=10  Suspicious=1  Risky=4
+============================================================
+
+
+============================================================
+SCAN START  2026-05-05 07:43:15
+============================================================
+  Host CPU : 100.0%  (cores: 6)
+  Memory   : 1.74 / 5.04 GB  (34.5%)
+  Disk     : 23.58 / 41.69 GB  (59.6%)
+  Processes: 353
+
+[2026-05-05 07:43:15] ALERT  level=SUSPICIOUS  score=4
+  PID      : 43126
+  Name     : stress-ng
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 0.0%  MEM: 0.2% (11.53 MB)
+  Started  : 2026-05-05 07:40:38
+  Alerts   : Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:43:15] ALERT  level=SUSPICIOUS  score=4
+  PID      : 43130
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 19.9%  MEM: 0.2% (8.5 MB)
+  Started  : 2026-05-05 07:40:39
+  Alerts   : Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:43:15] ALERT  level=SUSPICIOUS  score=4
+  PID      : 44586
+  Name     : stress-ng
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 0.0%  MEM: 0.2% (11.62 MB)
+  Started  : 2026-05-05 07:42:48
+  Alerts   : Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:43:15] ALERT  level=SUSPICIOUS  score=4
+  PID      : 44610
+  Name     : stress-ng
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 0.0%  MEM: 0.2% (11.62 MB)
+  Started  : 2026-05-05 07:42:51
+  Alerts   : Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:43:15] ALERT  level=RISKY  score=9
+  PID      : 43128
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 59.8%  MEM: 0.2% (8.5 MB)
+  Started  : 2026-05-05 07:40:39
+  Alerts   : High CPU: 59.8%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:43:15] ALERT  level=RISKY  score=9
+  PID      : 43129
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 59.8%  MEM: 0.2% (8.5 MB)
+  Started  : 2026-05-05 07:40:39
+  Alerts   : High CPU: 59.8%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:43:15] ALERT  level=RISKY  score=9
+  PID      : 43131
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 59.8%  MEM: 0.2% (8.5 MB)
+  Started  : 2026-05-05 07:40:39
+  Alerts   : High CPU: 59.8%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:43:15] ALERT  level=RISKY  score=9
+  PID      : 44588
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 39.9%  MEM: 0.2% (9.2 MB)
+  Started  : 2026-05-05 07:42:48
+  Alerts   : High CPU: 39.9%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:43:15] ALERT  level=RISKY  score=9
+  PID      : 44589
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 59.8%  MEM: 0.2% (8.96 MB)
+  Started  : 2026-05-05 07:42:48
+  Alerts   : High CPU: 59.8%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:43:15] ALERT  level=RISKY  score=9
+  PID      : 44590
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 39.9%  MEM: 0.2% (9.05 MB)
+  Started  : 2026-05-05 07:42:48
+  Alerts   : High CPU: 39.9%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:43:15] ALERT  level=RISKY  score=9
+  PID      : 44591
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 39.8%  MEM: 0.2% (9.03 MB)
+  Started  : 2026-05-05 07:42:48
+  Alerts   : High CPU: 39.8%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:43:15] ALERT  level=RISKY  score=9
+  PID      : 44612
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 59.8%  MEM: 0.2% (10.41 MB)
+  Started  : 2026-05-05 07:42:51
+  Alerts   : High CPU: 59.8%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:43:15] ALERT  level=RISKY  score=9
+  PID      : 44613
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 37.2%  MEM: 0.2% (10.4 MB)
+  Started  : 2026-05-05 07:42:51
+  Alerts   : High CPU: 37.2%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:43:15] ALERT  level=RISKY  score=9
+  PID      : 44614
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 39.9%  MEM: 0.2% (10.38 MB)
+  Started  : 2026-05-05 07:42:51
+  Alerts   : High CPU: 39.9%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 07:43:15] ALERT  level=RISKY  score=9
+  PID      : 44615
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 99.7%  MEM: 0.2% (10.38 MB)
+  Started  : 2026-05-05 07:42:51
+  Alerts   : High CPU: 99.7%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+SCAN END    2026-05-05 07:43:15
+  Scanned=353  Low=10  Suspicious=4  Risky=11
+============================================================
+
+[2026-05-05 07:44:14] CRAWLER CRAWLER_START    Background crawler started (interval=15s)
+
+============================================================
+SCAN START  2026-05-05 07:48:39
+============================================================
+  Host CPU : 2.7%  (cores: 6)
+  Memory   : 1.73 / 5.04 GB  (34.4%)
+  Disk     : 23.58 / 41.69 GB  (59.6%)
+  Processes: 338
+
+SCAN END    2026-05-05 07:48:39
+  Scanned=338  Low=10  Suspicious=0  Risky=0
+============================================================
+
+
+============================================================
+SCAN START  2026-05-05 08:01:13
+============================================================
+  Host CPU : 100.0%  (cores: 6)
+  Memory   : 1.75 / 5.04 GB  (34.8%)
+  Disk     : 23.58 / 41.69 GB  (59.6%)
+  Processes: 351
+
+[2026-05-05 08:01:13] ALERT  level=SUSPICIOUS  score=4
+  PID      : 52346
+  Name     : stress-ng
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 0.0%  MEM: 0.2% (11.38 MB)
+  Started  : 2026-05-05 08:00:45
+  Alerts   : Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 08:01:13] ALERT  level=SUSPICIOUS  score=4
+  PID      : 52364
+  Name     : stress-ng
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 0.0%  MEM: 0.2% (11.55 MB)
+  Started  : 2026-05-05 08:00:47
+  Alerts   : Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 08:01:13] ALERT  level=SUSPICIOUS  score=4
+  PID      : 52382
+  Name     : stress-ng
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 0.0%  MEM: 0.2% (11.55 MB)
+  Started  : 2026-05-05 08:00:49
+  Alerts   : Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 08:01:13] ALERT  level=RISKY  score=9
+  PID      : 52348
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 39.8%  MEM: 0.2% (9.51 MB)
+  Started  : 2026-05-05 08:00:45
+  Alerts   : High CPU: 39.8%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 08:01:13] ALERT  level=RISKY  score=9
+  PID      : 52349
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 39.9%  MEM: 0.2% (9.51 MB)
+  Started  : 2026-05-05 08:00:45
+  Alerts   : High CPU: 39.9%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 08:01:13] ALERT  level=RISKY  score=9
+  PID      : 52350
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 39.9%  MEM: 0.2% (9.51 MB)
+  Started  : 2026-05-05 08:00:45
+  Alerts   : High CPU: 39.9%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 08:01:13] ALERT  level=RISKY  score=9
+  PID      : 52351
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 59.8%  MEM: 0.2% (9.51 MB)
+  Started  : 2026-05-05 08:00:45
+  Alerts   : High CPU: 59.8%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 08:01:13] ALERT  level=RISKY  score=9
+  PID      : 52366
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 59.8%  MEM: 0.2% (10.14 MB)
+  Started  : 2026-05-05 08:00:47
+  Alerts   : High CPU: 59.8%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 08:01:13] ALERT  level=RISKY  score=9
+  PID      : 52367
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 39.9%  MEM: 0.2% (10.14 MB)
+  Started  : 2026-05-05 08:00:47
+  Alerts   : High CPU: 39.9%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 08:01:13] ALERT  level=RISKY  score=9
+  PID      : 52368
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 59.8%  MEM: 0.2% (10.13 MB)
+  Started  : 2026-05-05 08:00:47
+  Alerts   : High CPU: 59.8%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 08:01:13] ALERT  level=RISKY  score=9
+  PID      : 52369
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 99.7%  MEM: 0.2% (10.14 MB)
+  Started  : 2026-05-05 08:00:47
+  Alerts   : High CPU: 99.7%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 08:01:13] ALERT  level=RISKY  score=9
+  PID      : 52384
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 39.9%  MEM: 0.2% (9.78 MB)
+  Started  : 2026-05-05 08:00:49
+  Alerts   : High CPU: 39.9%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 08:01:13] ALERT  level=RISKY  score=9
+  PID      : 52385
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 39.9%  MEM: 0.2% (9.78 MB)
+  Started  : 2026-05-05 08:00:49
+  Alerts   : High CPU: 39.9%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 08:01:13] ALERT  level=RISKY  score=9
+  PID      : 52386
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 39.9%  MEM: 0.2% (9.77 MB)
+  Started  : 2026-05-05 08:00:49
+  Alerts   : High CPU: 39.9%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+[2026-05-05 08:01:13] ALERT  level=RISKY  score=9
+  PID      : 52387
+  Name     : stress-ng-cpu
+  User     : arnav
+  Path     : /usr/bin/stress-ng
+  CPU      : 59.7%  MEM: 0.2% (9.78 MB)
+  Started  : 2026-05-05 08:00:49
+  Alerts   : High CPU: 59.7%, Suspicious keyword 'stress-ng' in process
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+SCAN END    2026-05-05 08:01:13
+  Scanned=350  Low=10  Suspicious=3  Risky=12
+============================================================
+
+[2026-05-05 08:02:11] CRAWLER CRAWLER_START    Background crawler started (interval=15s)
+[2026-05-05 08:02:29] CRAWLER NEW_ALERT        [SUSPICIOUS] PID=52346 name=stress-ng user=arnav score=4 fp=4a014193e56f2092 | Suspicious keyword 'stress-ng' in process
+[2026-05-05 08:02:29] CRAWLER NEW_ALERT        [RISKY] PID=52348 name=stress-ng-cpu user=arnav score=9 fp=12e41548d7a77111 | High CPU: 39.8%
+[2026-05-05 08:02:29] CRAWLER NEW_ALERT        [RISKY] PID=52348 name=stress-ng-cpu user=arnav score=9 fp=2db679390f1b7e94 | Suspicious keyword 'stress-ng' in process
+[2026-05-05 08:02:29] CRAWLER NEW_ALERT        [RISKY] PID=52349 name=stress-ng-cpu user=arnav score=9 fp=5ab8707ca5ddb56c | High CPU: 39.9%
+[2026-05-05 08:02:29] CRAWLER NEW_ALERT        [RISKY] PID=52349 name=stress-ng-cpu user=arnav score=9 fp=056bc3a36eb1fb38 | Suspicious keyword 'stress-ng' in process
+[2026-05-05 08:02:29] CRAWLER NEW_ALERT        [RISKY] PID=52350 name=stress-ng-cpu user=arnav score=9 fp=37a77112f98f6034 | High CPU: 39.2%
+[2026-05-05 08:02:29] CRAWLER NEW_ALERT        [RISKY] PID=52350 name=stress-ng-cpu user=arnav score=9 fp=ffed65529b21ccb2 | Suspicious keyword 'stress-ng' in process
+[2026-05-05 08:02:29] CRAWLER NEW_ALERT        [RISKY] PID=52351 name=stress-ng-cpu user=arnav score=9 fp=137604bad03f8e7e | High CPU: 79.8%
+[2026-05-05 08:02:29] CRAWLER NEW_ALERT        [RISKY] PID=52351 name=stress-ng-cpu user=arnav score=9 fp=8ef5049a5703efcf | Suspicious keyword 'stress-ng' in process
+[2026-05-05 08:02:29] CRAWLER NEW_ALERT        [SUSPICIOUS] PID=52364 name=stress-ng user=arnav score=4 fp=07c19bacd2589ac9 | Suspicious keyword 'stress-ng' in process
+[2026-05-05 08:02:29] CRAWLER NEW_ALERT        [RISKY] PID=52366 name=stress-ng-cpu user=arnav score=9 fp=5d3963e62915b946 | High CPU: 59.8%
+[2026-05-05 08:02:29] CRAWLER NEW_ALERT        [RISKY] PID=52366 name=stress-ng-cpu user=arnav score=9 fp=f5cdb7cf3695f846 | Suspicious keyword 'stress-ng' in process
+[2026-05-05 08:02:29] CRAWLER NEW_ALERT        [RISKY] PID=52367 name=stress-ng-cpu user=arnav score=9 fp=75d0beea4f26f338 | High CPU: 37.4%
+[2026-05-05 08:02:29] CRAWLER NEW_ALERT        [RISKY] PID=52367 name=stress-ng-cpu user=arnav score=9 fp=15b187c6c022e12a | Suspicious keyword 'stress-ng' in process
+[2026-05-05 08:02:29] CRAWLER NEW_ALERT        [RISKY] PID=52368 name=stress-ng-cpu user=arnav score=9 fp=1262ebe7d9ff12d9 | High CPU: 39.9%
+[2026-05-05 08:02:29] CRAWLER NEW_ALERT        [RISKY] PID=52368 name=stress-ng-cpu user=arnav score=9 fp=89d3ca6cc2e08b92 | Suspicious keyword 'stress-ng' in process
+[2026-05-05 08:02:29] CRAWLER NEW_ALERT        [RISKY] PID=52369 name=stress-ng-cpu user=arnav score=9 fp=72a2da575a580e0b | High CPU: 79.8%
+[2026-05-05 08:02:29] CRAWLER NEW_ALERT        [RISKY] PID=52369 name=stress-ng-cpu user=arnav score=9 fp=93c9f5114501f49c | Suspicious keyword 'stress-ng' in process
+[2026-05-05 08:02:29] CRAWLER NEW_ALERT        [SUSPICIOUS] PID=52382 name=stress-ng user=arnav score=4 fp=c3fdd7c7accda8c5 | Suspicious keyword 'stress-ng' in process
+[2026-05-05 08:02:29] CRAWLER NEW_ALERT        [RISKY] PID=52384 name=stress-ng-cpu user=arnav score=9 fp=b963bcb136a40007 | High CPU: 99.7%
+[2026-05-05 08:02:29] CRAWLER NEW_ALERT        [RISKY] PID=52384 name=stress-ng-cpu user=arnav score=9 fp=bc77a17a676b0830 | Suspicious keyword 'stress-ng' in process
+[2026-05-05 08:02:29] CRAWLER NEW_ALERT        [RISKY] PID=52385 name=stress-ng-cpu user=arnav score=9 fp=811d699159dba892 | High CPU: 39.9%
+[2026-05-05 08:02:29] CRAWLER NEW_ALERT        [RISKY] PID=52385 name=stress-ng-cpu user=arnav score=9 fp=c6d1850b7a413e9c | Suspicious keyword 'stress-ng' in process
+[2026-05-05 08:02:29] CRAWLER NEW_ALERT        [SUSPICIOUS] PID=52386 name=stress-ng-cpu user=arnav score=4 fp=b51b1fb00d85c592 | Suspicious keyword 'stress-ng' in process
+[2026-05-05 08:02:29] CRAWLER NEW_ALERT        [RISKY] PID=52387 name=stress-ng-cpu user=arnav score=9 fp=4c1309ea4c440366 | High CPU: 39.9%
+[2026-05-05 08:02:29] CRAWLER NEW_ALERT        [RISKY] PID=52387 name=stress-ng-cpu user=arnav score=9 fp=626101706c946755 | Suspicious keyword 'stress-ng' in process
+[2026-05-05 08:02:29] CRAWLER CRAWLER_STOP     Crawler stopped — scans=1 new=26 dupes=0 resolved=0
+[2026-05-05 08:02:29] CRAWLER CRAWLER_START    Background crawler started (interval=15s)
+
+============================================================
+SCAN START  2026-05-05 08:10:32
+============================================================
+  Host CPU : 3.0%  (cores: 6)
+  Memory   : 1.75 / 5.04 GB  (34.7%)
+  Disk     : 23.58 / 41.69 GB  (59.6%)
+  Processes: 337
+
+[2026-05-05 08:10:32] ALERT  level=SUSPICIOUS  score=5
+  PID      : 2179
+  Name     : gnome-shell
+  User     : arnav
+  Path     : /usr/bin/gnome-shell
+  CPU      : 139.2%  MEM: 12.7% (656.44 MB)
+  Started  : 2026-05-05 06:22:04
+  Alerts   : High CPU: 139.2%
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+SCAN END    2026-05-05 08:10:32
+  Scanned=336  Low=10  Suspicious=1  Risky=0
+============================================================
+
