@@ -9,7 +9,7 @@ import sys
 import os
 import tty
 import termios
-import shutil
+import shutil   #the moost important library, for importing process and service data.
 
 
 def _read_key():
@@ -29,7 +29,6 @@ def _read_key():
                     ch3 = sys.stdin.buffer.read(1)
                     if ch3 == b'A': return 'UP'
                     if ch3 == b'B': return 'DOWN'
-                    # drain rest of any multi-byte sequence
                     while ch3 and not (b'A' <= ch3 <= b'Z' or b'a' <= ch3 <= b'z'):
                         ch3 = sys.stdin.buffer.read(1)
                 continue   # ignore all other escape sequences
@@ -70,7 +69,7 @@ def show(title, subtitle, options):
                 print(f"{color}     {label}{RESET}")
         print()
 
-    sys.stdout.write("\033[?25l")   # hide cursor
+    sys.stdout.write("\033[?25l")   # hiding cursor
     sys.stdout.flush()
 
     try:
