@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 """
 CLI Based Process and Service Monitoring Tool
 Arrow-key menu + paged output + background deduplication crawler.
@@ -14,16 +14,12 @@ import menu
 from engine.monitor import Monitor
 from rules.formatter import bold, cyan, green, red, yellow, grey, white
 
-# ── Shared monitor instance ─────────────────────────────────────────────────
 monitor = Monitor(log_path="logs/monitor.log")
 
 PAGE_SIZE = 10
 
 
-# ═══════════════════════════════════════════════════════════════════════════
-# PAGER
-# ═══════════════════════════════════════════════════════════════════════════
-
+#pager
 def pager(lines):
     term_h = shutil.get_terminal_size((80, 24)).lines
     page_h = term_h - 6
@@ -54,10 +50,7 @@ def pause():
     input(grey("  ↩  Press Enter to return to the Main Menu..."))
 
 
-# ═══════════════════════════════════════════════════════════════════════════
-# UI HELPERS
-# ═══════════════════════════════════════════════════════════════════════════
-
+#ui integration
 def tip(text):
     print(cyan("  ┌─ 💡 TIP " + "─" * 50))
     for line in text.strip().split("\n"):
@@ -74,12 +67,12 @@ def info_box(lines):
 
 def section_header(title, subtitle=""):
     os.system("clear")
-    BOX_INNER = 58  # visible character width inside the box
+    BOX_INNER = 58 
 
     title_text    = f"   PS Monitor — {title}"
     subtitle_text = f"   {subtitle}" if subtitle else ""
 
-    # Pad based on visible length, not raw string length
+    #padding based on visible length not raw string length    
     title_padded    = title_text    + " " * (BOX_INNER - len(title_text))
     subtitle_padded = subtitle_text + " " * (BOX_INNER - len(subtitle_text))
 
@@ -107,9 +100,7 @@ def crawler_status_line():
     return grey("  ○ Crawler not running  (start it from Crawler menu)")
 
 
-# ═══════════════════════════════════════════════════════════════════════════
-# OPTION 1 — FULL SCAN
-# ═══════════════════════════════════════════════════════════════════════════
+#full process scan
 
 def menu_scan():
     section_header("Full Process Scan", "Checking every running process on this system")
@@ -214,9 +205,7 @@ def menu_scan():
     pause()
 
 
-# ═══════════════════════════════════════════════════════════════════════════
-# OPTION 2 — INSPECT A PROCESS
-# ═══════════════════════════════════════════════════════════════════════════
+#inspect process
 
 def menu_inspect():
     section_header("Inspect a Process", "Deep-dive into one process using its PID")
@@ -250,9 +239,7 @@ def menu_inspect():
     pause()
 
 
-# ═══════════════════════════════════════════════════════════════════════════
-# OPTION 3 — KILL A PROCESS
-# ═══════════════════════════════════════════════════════════════════════════
+#kill process
 
 def menu_kill():
     section_header("Kill a Process", "Force-stop a process by its PID")
@@ -279,9 +266,7 @@ def menu_kill():
     pause()
 
 
-# ═══════════════════════════════════════════════════════════════════════════
-# OPTION 4 — SERVICE STATUS
-# ═══════════════════════════════════════════════════════════════════════════
+#system service status
 
 def menu_services():
     section_header("System Service Status", "Background services managed by systemd")
@@ -298,10 +283,7 @@ def menu_services():
     pager(render_service_table(collect_services()).split("\n"))
     pause()
 
-
-# ═══════════════════════════════════════════════════════════════════════════
-# OPTION 5 — SCAN HISTORY
-# ═══════════════════════════════════════════════════════════════════════════
+#scan history
 
 def menu_history():
     section_header("Scan History", "All past scans saved in logs/monitor.log")
@@ -335,9 +317,7 @@ def menu_history():
     pause()
 
 
-# ═══════════════════════════════════════════════════════════════════════════
-# OPTION 6 — CRAWLER DASHBOARD
-# ═══════════════════════════════════════════════════════════════════════════
+#crawler everything
 
 def menu_crawler():
     while True:
@@ -465,9 +445,7 @@ def menu_crawler():
             break
 
 
-# ═══════════════════════════════════════════════════════════════════════════
-# OPTION 7 — SETTINGS
-# ═══════════════════════════════════════════════════════════════════════════
+#settings for resources configuration
 
 def menu_settings():
     while True:
@@ -579,10 +557,7 @@ def menu_settings():
             break
 
 
-# ═══════════════════════════════════════════════════════════════════════════
-# OPTION 8 — HELP
-# ═══════════════════════════════════════════════════════════════════════════
-
+#basic glossary
 def menu_help():
     topics = [
         ("What is a Process?", ""),
@@ -673,9 +648,7 @@ def menu_help():
             pause()
 
 
-# ═══════════════════════════════════════════════════════════════════════════
-# MAIN MENU
-# ═══════════════════════════════════════════════════════════════════════════
+#main menu layout
 
 MAIN_OPTIONS = [
     ("Scan all processes",      "Check every running process and flag anything suspicious"),
@@ -702,7 +675,6 @@ def main():
         sys.exit(1)
 
     while True:
-        # Show crawler status under the menu
         print(crawler_status_line())
 
         choice = menu.show(
